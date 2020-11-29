@@ -1,2 +1,4 @@
 # P2P Media
-[Live example](https://example.webrtc.ecl.ntt.com/p2p-media/index.html)
+
+SkyWayを用いてビデオチャット可能なサンプルを作成。
+今後、ビデオ部分をのぞいて音声のみにしてRaspberry Piから使用できるか確認を行う。
