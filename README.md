@@ -1,4 +1,6 @@
 # P2P Media
 
 SkyWayを用いてビデオチャット可能なサンプルを作成。
-今後、ビデオ部分をのぞいて音声のみにしてRaspberry Piから使用できるか確認を行う。
+index.htmlとindex2.htmlがあるが、ここに2台のRaspberry Piを接続させる。
+index.htmlのPeerIDがiotwebhackathonであり
+index2.htmlのPeerIDがiotwebhackathon2である。

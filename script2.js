@@ -29,7 +29,7 @@ const Peer = window.Peer;
   localVideo.playsInline = true;
   await localVideo.play().catch(console.error);
 
-  const peer = (window.peer = new Peer("iotwebhackathon", {
+  const peer = (window.peer = new Peer("iotwebhackathon2", {
     key: window.__SKYWAY_KEY__,
     debug: 3,
   }));
