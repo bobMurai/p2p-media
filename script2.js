@@ -6,7 +6,7 @@ const Peer = window.Peer;
   const callTrigger = document.getElementById('js-call-trigger');
   const closeTrigger = document.getElementById('js-close-trigger');
   const remoteVideo = document.getElementById('js-remote-stream');
-  const remoteId = document.getElementById('js-remote-id');
+  const remoteId = "iotwebhackathon"
   const meta = document.getElementById('js-meta');
   const sdkSrc = document.querySelector('script[src*=skyway]');
 
@@ -42,7 +42,7 @@ const Peer = window.Peer;
       return;
     }
 
-    const mediaConnection = peer.call(remoteId.value, localStream);
+    const mediaConnection = peer.call(remoteId, localStream);
 
     mediaConnection.on('stream', async stream => {
       // Render remote stream for caller
